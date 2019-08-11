@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/qc_service_web" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Qc_shopping_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_shopping_model/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_shopping_common/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_shopping_api/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_manage_goods/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_framework_common/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_framework_model/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_framework_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_api/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_web/pom.xml" />
+        <option value="$PROJECT_DIR$/xc_govern_center/pom.xml" />
+        <option value="$PROJECT_DIR$/qingcheng_service_business/pom.xml" />
+        <option value="$PROJECT_DIR$/qingcheng_service_config/pom.xml" />
+        <option value="$PROJECT_DIR$/qingcheng_service_order/pom.xml" />
+        <option value="$PROJECT_DIR$/qingcheng_service_system/pom.xml" />
+        <option value="$PROJECT_DIR$/qingcheng_service_user/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_business/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_config/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_order/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_goods/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_system/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_service_user/pom.xml" />
+        <option value="$PROJECT_DIR$/qc_govern_center/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

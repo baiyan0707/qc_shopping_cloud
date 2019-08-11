@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qc_govern_center" />
+        <module name="xc_govern_center" />
+        <module name="qc_service_order" />
+        <module name="qc_framework_common" />
+        <module name="qc_service_goods" />
+        <module name="qc_service_business" />
+        <module name="qc_framework_model" />
+        <module name="qc_service_config" />
+        <module name="qc_service_system" />
+        <module name="qc_shopping_cloud" />
+        <module name="qc_service_user" />
+        <module name="qc_service_api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qc_service_web" target="1.8" />
+      <module name="qc_shopping_cloud" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="qc_framework_common" options="-parameters" />
+      <module name="qc_framework_model" options="-parameters" />
+      <module name="qc_govern_center" options="-parameters" />
+      <module name="qc_service_api" options="-parameters" />
+      <module name="qc_service_business" options="-parameters" />
+      <module name="qc_service_config" options="-parameters" />
+      <module name="qc_service_goods" options="-parameters" />
+      <module name="qc_service_order" options="-parameters" />
+      <module name="qc_service_system" options="-parameters" />
+      <module name="qc_service_user" options="-parameters" />
+      <module name="qc_service_web" options="-parameters" />
+      <module name="xc_govern_center" options="-parameters" />
+    </option>
+  </component>
+</project>

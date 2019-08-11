@@ -1,0 +1,25 @@
+server:
+  port: ${PORT:10004}
+spring:
+  application:
+    name: system
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: ${MYSQL_URL:jdbc:mysql://192.168.122.136:33306/qingcheng_config?characterEncoding=UTF8}
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://localhost:50101/eureka/,http://localhost:50102/eureka/}
+  instance:
+    prefer-ip-address: true
+    ip-address: ${IP_ADDRESS:127.0.0.1}
+    instance-id: ${spring.application.name}:${server.port} #指定实例id
+feign:
+  hystrix:
+    enabled: true
+aliyun-oss:
+  endpoint: oss-ap-northeast-1.aliyuncs.com
+  accessKeyId: LTAIjqGFoECwnsZg
+  accessKeySecret: ACrbMk79cIExglIHdz5oV9bQVTuotN
